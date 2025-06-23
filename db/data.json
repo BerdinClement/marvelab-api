@@ -22,11 +22,11 @@
   "resources": [
     {
       "id": 1,
-      "url": "http://localhost:3000/static/resource1.png"
+      "url": "https://marvelab-api.onrender.com/static/resource1.png"
     },
     {
       "id": 2,
-      "url": "http://localhost:3000/static/resource2.png"
+      "url": "https://marvelab-api.onrender.com/static/resource2.png"
     }
   ]
 }
