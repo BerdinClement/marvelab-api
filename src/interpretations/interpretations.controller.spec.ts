@@ -11,7 +11,9 @@ describe('InterpretationsController', () => {
       providers: [InterpretationsService],
     }).compile();
 
-    controller = module.get<InterpretationsController>(InterpretationsController);
+    controller = module.get<InterpretationsController>(
+      InterpretationsController,
+    );
   });
 
   it('should be defined', () => {

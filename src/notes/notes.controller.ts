@@ -1,4 +1,11 @@
-import { Controller, Get, Body, Patch, Param, NotFoundException } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Body,
+  Patch,
+  Param,
+  NotFoundException,
+} from '@nestjs/common';
 import { NotesService } from './notes.service';
 import { UpdateNoteDto } from './dto/update-note.dto';
 

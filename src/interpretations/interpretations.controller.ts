@@ -1,4 +1,11 @@
-import { Controller, Get, Body, Patch, Param, NotFoundException } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Body,
+  Patch,
+  Param,
+  NotFoundException,
+} from '@nestjs/common';
 import { InterpretationsService } from './interpretations.service';
 import { UpdateInterpretationDto } from './dto/update-interpretation.dto';
 
