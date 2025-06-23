@@ -1,0 +1,32 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Plusieurs études ont montré qu’une exposition régulière aux espaces verts est associée à une réduction du stress et à une amélioration des fonctions cognitives chez les adultes."
+    },
+    {
+      "id": 2,
+      "content": "Dans une expérience contrôlée, les participants ayant marché 20 minutes dans un parc ont présenté une baisse de 15 % du taux de cortisol, comparé à ceux ayant marché en milieu urbain."
+    }
+  ],
+  "interpretations": [
+    {
+      "id": 1,
+      "content": "Le lien constant entre l’exposition à la nature et les bénéfices cognitifs suggère que l’intégration d’environnements naturels dans l’aménagement urbain pourrait avoir des effets positifs à long terme sur la santé publique."
+    },
+    {
+      "id": 2,
+      "content": "La diminution mesurable du cortisol implique qu’une exposition même de courte durée à la nature peut avoir des effets physiologiques immédiats, ce qui soutient l’utilisation d’interventions basées sur la nature dans la gestion du stress."
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "url": "https://www.example.com/impact-espaces-verts-sante-mentale"
+    },
+    {
+      "id": 2,
+      "url": "https://www.example.com/etude-cortisol-nature"
+    }
+  ]
+}
