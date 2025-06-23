@@ -22,11 +22,11 @@
   "resources": [
     {
       "id": 1,
-      "url": "https://www.example.com/impact-espaces-verts-sante-mentale"
+      "url": "http://localhost:3000/static/resource1.png"
     },
     {
       "id": 2,
-      "url": "https://www.example.com/etude-cortisol-nature"
+      "url": "http://localhost:3000/static/resource2.png"
     }
   ]
 }
