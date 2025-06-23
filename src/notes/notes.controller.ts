@@ -1,4 +1,4 @@
-import { Controller, Get, Body, Patch, Param } from '@nestjs/common';
+import { Controller, Get, Body, Patch, Param, NotFoundException } from '@nestjs/common';
 import { NotesService } from './notes.service';
 import { UpdateNoteDto } from './dto/update-note.dto';
 
@@ -13,12 +13,19 @@ export class NotesController {
 
   @Get(':id')
   findOne(@Param('id') id: number) {
-    return this.notesService.findOne(id);
+    try {
+      return this.notesService.findOne(id);
+    } catch (ex) {
+      throw new NotFoundException(ex);
+    }
   }
 
   @Patch(':id')
   update(@Param('id') id: number, @Body() updateNoteDto: UpdateNoteDto) {
-    return this.notesService.update(id, updateNoteDto);
+    try {
+      return this.notesService.update(id, updateNoteDto);
+    } catch (ex) {
+      throw new NotFoundException(ex);
+    }
   }
-
 }

@@ -19,7 +19,8 @@ export class NotesService {
   }
 
   findOne(id: number) {
-    const note = this.notes.find((note) => note.id === id);
+    console.log(this.notes);
+    const note = this.notes.find((note) => note.id == id);
     if (!note) {
       throw new Error(`Note with ID ${id} not found`);
     }
